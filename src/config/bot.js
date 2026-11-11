@@ -23,9 +23,9 @@ export const botConfig = {
     // 5 = Competing
     activities: [
       {
-        name: "Custom Status", // required by Discord API, not shown in the client
-        state: "stalking",     // this is what people actually see
-        type: 4,               // Custom
+        name: "Yearning", // required by Discord API, not shown in the client
+        state: "Miss you dol",     // this is what people actually see
+        type: 2,               // Custom
       },
     ],
   },
@@ -68,7 +68,7 @@ export const botConfig = {
 
     // Embed colors by application status.
     statusColors: {
-      pending: "#FFA500",
+      pending: "#008000",
       approved: "#00FF00",
       denied: "#FF0000",
     },
